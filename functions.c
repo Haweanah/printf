@@ -78,13 +78,13 @@ return (write(1, str, length));
 /************************* PRINT PERCENT SIGN*************************/
 /**
  * print_percent - Prints a percent sign
- * @types: Lista of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of characters printed
  */
 int print_percent(va_list types, char buffer[],
 int flags, int width, int precision, int size)
