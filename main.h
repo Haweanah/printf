@@ -20,8 +20,8 @@
 
 /**
  * struct fmt - Struct op
- * fmt: The format
- * the associated function
+ * @fmt: The format
+ * @fn: the associated function
  */
 struct fmt
 {
